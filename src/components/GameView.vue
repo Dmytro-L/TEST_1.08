@@ -57,11 +57,12 @@ function onLogout() {
 .game-container {
     background-color: rgb(38, 38, 38);
     display: flex;
+    overflow: auto;
+
 }
 
 .game-wrapper {
     margin: auto;
-    overflow: auto;
 }
 
 .square {
