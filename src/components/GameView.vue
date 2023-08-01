@@ -61,6 +61,7 @@ function onLogout() {
 
 .game-wrapper {
     margin: auto;
+    overflow: auto;
 }
 
 .square {
