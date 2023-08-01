@@ -9,7 +9,7 @@
             <div class="game-wrapper">
                 <div v-for="y in parseInt(sizeY)" :key="y" style="display: flex;">
                     <div v-for="x in parseInt(sizeX)" :key="x"
-                        :style="{ background: squares[x - 1][y - 1] ? 'white' : 'blue' }" @mouseover="toggleSquare(x, y)"
+                        :style="{ background: squares[x - 1][y - 1] ? 'blue' : 'white' }" @mouseover="toggleSquare(x, y)"
                         class="square">
                     </div>
                 </div>
